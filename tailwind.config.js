@@ -8,7 +8,11 @@ export default {
     backgroundColor: theme => ({
       ...theme('colors'),
     }),
-    extend: {},
+    extend: {
+      fontFamily: {
+        'red-hat-display': ['Red Hat Display', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
