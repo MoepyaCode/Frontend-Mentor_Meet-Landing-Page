@@ -11,6 +11,9 @@ export default {
     extend: {
       fontFamily: {
         'red-hat-display': ['Red Hat Display', 'sans-serif'],
+      },
+      screens: {
+        xs: '375px',
       }
     },
   },
