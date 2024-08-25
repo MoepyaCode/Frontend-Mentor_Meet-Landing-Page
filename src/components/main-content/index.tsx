@@ -15,10 +15,10 @@ export default function MainContent() {
 
             {/* 2 */}
             <div className='flex flex-wrap justify-around'>
-                <img className='object-fill xs:object-contain max-h-[144px] rounded-[8px] w-full xs:w-auto mb-[16px]' src={Assets.Desktop.imageWomanInVideoCall} alt="" />
-                <img className='object-fill xs:object-contain max-h-[144px] rounded-[8px] w-full xs:w-auto mb-[16px]' src={Assets.Desktop.imageWomenVideoChatting} alt="" />
-                <img className='object-fill xs:object-contain max-h-[144px] rounded-[8px] w-full xs:w-auto mb-[16px]' src={Assets.Desktop.imageMenInMeeting} alt="" />
-                <img className='object-fill xs:object-contain max-h-[144px] rounded-[8px] w-full xs:w-auto' src={Assets.Desktop.imageManTexting} alt="" />
+                <img className='object-fill xs:object-contain max-h-[144px] md:max-h-[160px] rounded-[8px] w-full xs:w-auto mb-[16px]' src={Assets.Desktop.imageWomanInVideoCall} alt="" />
+                <img className='object-fill xs:object-contain max-h-[144px] md:max-h-[160px] rounded-[8px] w-full xs:w-auto mb-[16px]' src={Assets.Desktop.imageWomenVideoChatting} alt="" />
+                <img className='object-fill xs:object-contain max-h-[144px] md:max-h-[160px] rounded-[8px] w-full xs:w-auto mb-[16px]' src={Assets.Desktop.imageMenInMeeting} alt="" />
+                <img className='object-fill xs:object-contain max-h-[144px] md:max-h-[160px] rounded-[8px] w-full xs:w-auto' src={Assets.Desktop.imageManTexting} alt="" />
             </div>
 
             {/* 3 */}
