@@ -3,7 +3,7 @@ import { Assets } from '../../assets'
 
 export default function MainContent() {
     return (
-        <section className='px-[32px] pt-[32px] pb-[64px] flex flex-col  gap-[64px]'>
+        <section className='px-[32px] pt-[32px] md:pt-[56px] pb-[64px] flex flex-col  gap-[64px]'>
 
             {/* #1 */}
             <div className='flex flex-col items-center'>
@@ -22,12 +22,12 @@ export default function MainContent() {
             </div>
 
             {/* 3 */}
-            <div className='flex flex-col gap-[32px] text-center'>
+            <div className='flex flex-col gap-[32px] text-center md:self-center md:w-[67.5%]'>
                 <div className='flex flex-col gap-[16px]'>
-                    <h3 className='font-black  text-[12px] text-cyan-600 leading-[110%] tracking-[4px] uppercase'>
+                    <h3 className='font-black  text-[12px] md:text-[14px] text-cyan-600 leading-[110%] tracking-[4px] uppercase'>
                         Built for modern use
                     </h3>
-                    <h2 className='font-black text-slate-900 text-[32px] leading-[110%]'>
+                    <h2 className='font-black text-slate-900 text-[32px] md:text-[36px] leading-[110%]'>
                         Smarter meetings, all in one place
                     </h2>
                 </div>

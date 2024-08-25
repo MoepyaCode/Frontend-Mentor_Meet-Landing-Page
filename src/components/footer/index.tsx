@@ -13,9 +13,9 @@ export default function Footer() {
             </div>
 
             {/* #2 */}
-            <div className='relative grid place-items-center px-[32px] py-[64px] bg-[url(/src/assets/mobile/image-footer.jpg)] bg-cover bg-no-repeat  before:absolute before:w-full before:h-full before:bg-cyan-600 before:opacity-90'>
-                <div className='z-10 flex flex-col gap-[24px] text-center text-white'>
-                    <h2 className='font-black text-[32px] leading-[110%]'>
+            <div className='relative grid place-items-center px-[32px] py-[64px] bg-[url(/src/assets/mobile/image-footer.jpg)] md:bg-[url(/src/assets/tablet/image-footer.jpg)] bg-cover bg-no-repeat  before:absolute before:w-full before:h-full before:bg-cyan-600 before:opacity-90'>
+                <div className='z-10 flex flex-col gap-[24px] text-center text-white md:w-[72.5%]'>
+                    <h2 className='font-black text-[32px] md:text-[36px] leading-[110%]'>
                         Experience more together
                     </h2>
 

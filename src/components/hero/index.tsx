@@ -3,9 +3,9 @@ import { Assets } from '../../assets'
 export default function Hero() {
     return (
         <section className='flex flex-col flex-nowrap gap-[48px] pt-[64px] pb-[32px]'>
-            <img className='relative object-cover min-h-[160px]' src={Assets.Tablet.imageHero} alt="" />
+            <img className='relative object-cover min-h-[160px] md:min-h-[303px]' src={Assets.Tablet.imageHero} alt="" />
 
-            <div className='flex flex-col items-center gap-[24px] px-[32px] text-center'>
+            <div className='self-center flex flex-col items-center gap-[24px] px-[32px] text-center md:w-[65%]'>
                 <h1 className='font-black text-[40px] text-slate-900 leading-[110%]'>
                     Group Chat <br /> for Everyone
                 </h1>
